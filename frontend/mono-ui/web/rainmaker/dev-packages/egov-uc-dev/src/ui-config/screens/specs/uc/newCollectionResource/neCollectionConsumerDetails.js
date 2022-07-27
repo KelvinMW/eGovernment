@@ -50,7 +50,7 @@ import {
                   labelKey: "UC_MOBILE_NO_PLACEHOLDER"
                 },
                 iconObj: {
-                  label: "+91 |",
+                  label: "+252 |",
                   position: "start"
                 },
                 required: true,

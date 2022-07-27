@@ -89,7 +89,7 @@ Both of them can be given a `,` separated list of numbers or number patterns. To
 
 #### Prefixing
 
-Few 3rd party require a prefix of `0` or `91` or `+91` with the mobile number. In such a case you can use `sms.mobile.prefix` to automatically add the prefix to the mobile number coming in the message queue.
+Few 3rd party require a prefix of `0` or `91` or `+252` with the mobile number. In such a case you can use `sms.mobile.prefix` to automatically add the prefix to the mobile number coming in the message queue.
 
 #### Error Handling
 

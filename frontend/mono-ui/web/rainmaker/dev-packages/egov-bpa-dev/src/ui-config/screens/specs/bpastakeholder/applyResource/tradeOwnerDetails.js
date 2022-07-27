@@ -20,7 +20,7 @@ export const getOwnerMobNoField = getTextField({
     labelKey: "BPA_ENTER_APPLICANT_MOBILE_NO_PLACEHOLDER"
   },
   iconObj: {
-    label: "+91 |",
+    label: "+252 |",
     position: "start"
   },
   required: true,

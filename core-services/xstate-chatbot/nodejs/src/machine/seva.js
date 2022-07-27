@@ -453,7 +453,7 @@ let messages = {
   },
   onboarding: {
     onboardingWelcome:{
-      en_IN: 'Dear Citizen,\n\nWelcome to mSeva 🙏\n\nNow you can file/ track your complaints and pay your bills via WhatsApp.',
+      en_IN: 'Dear Citizen,\n\nWelcome to Somaliland eServices 🙏\n\nNow you can file/ track your complaints and pay your bills via WhatsApp.',
       hi_IN: 'प्रिय नागरिक,\n\nएमसेवा में आपका स्वागत है 🙏\n\nअब आप अपनी शिकायतों को दर्ज या ट्रैक कर सकते हैं और व्हाट्सएप के माध्यम से अपने बिलों का भुगतान भी कर सकते हैं।'
     }, 
     onboardingLocale: {

@@ -90,7 +90,7 @@ class ContactUs extends Component {
       {
         leftIcon: <Icon style={iconStyle} action="communication" name="call" />,
         primaryText: (
-          <a className="pgr-call-icon phoneNumberStyle" href={`tel:+91${contactNumber}`} style={{ textDecoration: "none" }} rel="noopener noreferrer">
+          <a className="pgr-call-icon phoneNumberStyle" href={`tel:+252${contactNumber}`} style={{ textDecoration: "none" }} rel="noopener noreferrer">
             {contactNumber ? contactNumber : defaultLoader}
           </a>
         ),

@@ -69,7 +69,7 @@ class DummyReceipts{
           en_IN: 'Mobile Number'
         };
         let example = {
-          en_IN: 'Do not use +91 or 0 before mobile number.'
+          en_IN: 'Do not use +252 or 0 before mobile number.'
         }
         return { option, example };
     }

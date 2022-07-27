@@ -430,7 +430,7 @@ export const searchPropertyDetails = getCommonCard({
 
       },
       iconObj: {
-        label: "+91 |",
+        label: "+252 |",
         position: "start"
       },
       required: false,
@@ -652,7 +652,7 @@ export const searchApplicationDetails = getCommonCard({
 
       },
       iconObj: {
-        label: "+91 |",
+        label: "+252 |",
         position: "start"
       },
       required: false,

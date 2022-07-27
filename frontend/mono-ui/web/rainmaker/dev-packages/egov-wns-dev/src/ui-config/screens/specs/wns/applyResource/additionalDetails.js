@@ -304,7 +304,7 @@ export const additionDetails = getCommonCard({
           labelKey: "WS_ADDN_DETAILS_PLUMBER_MOB_NO_LABEL_PLACEHOLDER"
         },
         gridDefination: { xs: 12, sm: 6 },
-        iconObj: { label: "+91 |", position: "start" },
+        iconObj: { label: "+252 |", position: "start" },
         required: false,
         pattern: getPattern("MobileNo"),
         errorMessage: "ERR_DEFAULT_INPUT_FIELD_MSG",

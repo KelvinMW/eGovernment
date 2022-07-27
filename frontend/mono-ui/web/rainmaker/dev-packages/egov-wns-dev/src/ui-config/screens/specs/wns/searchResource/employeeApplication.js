@@ -83,7 +83,7 @@ export const wnsApplication = getCommonCard({
             sm: 4
         },
         iconObj: {
-            label: "+91 |",
+            label: "+252 |",
             position: "start"
         },
         required: false,

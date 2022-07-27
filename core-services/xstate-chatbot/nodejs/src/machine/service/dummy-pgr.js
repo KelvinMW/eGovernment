@@ -54,7 +54,7 @@ class DummyPGRService {
         // return this.cities.tenantInfo.map(el=>el.code.replace(`${tenantId}.`, ""));
     }
     async getCityExternalWebpageLink(tenantId, whatsAppBusinessNumber) {
-      var url = config.egovServices.externalHost + config.egovServices.cityExternalWebpagePath + '?tenantId=' + tenantId + '&phone=+91' + whatsAppBusinessNumber;
+      var url = config.egovServices.externalHost + config.egovServices.cityExternalWebpagePath + '?tenantId=' + tenantId + '&phone=+252' + whatsAppBusinessNumber;
       var shorturl = await this.getShortenedURL(url);
       return shorturl;
     }
@@ -64,7 +64,7 @@ class DummyPGRService {
       return {localities,messageBundle,link};
     }
     async getLocalityExternalWebpageLink(tenantId, whatsAppBusinessNumber) {
-      var url = config.egovServices.externalHost + config.egovServices.localityExternalWebpagePath + '?tenantId=' + tenantId + '&phone=+91' + whatsAppBusinessNumber;
+      var url = config.egovServices.externalHost + config.egovServices.localityExternalWebpagePath + '?tenantId=' + tenantId + '&phone=+252' + whatsAppBusinessNumber;
       var shorturl = await this.getShortenedURL(url);
       return shorturl;
   }

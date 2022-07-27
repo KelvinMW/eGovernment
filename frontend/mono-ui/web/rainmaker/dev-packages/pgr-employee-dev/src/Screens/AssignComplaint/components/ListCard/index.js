@@ -82,7 +82,7 @@ export default class ListCard extends Component {
               rightIcon: depItem && depItem.mobileNumber && (
                 <a
                   className="pgr-call-icon emp-directory-call-icon-link"
-                  href={`tel:+91${depItem.mobileNumber}`}
+                  href={`tel:+252${depItem.mobileNumber}`}
                   style={{
                     textDecoration: "none",
                     height: "inherit",
@@ -96,7 +96,7 @@ export default class ListCard extends Component {
                   }}
                 >
                   <Icon className="emp-directory-call-icon" action="communication" name="call" style={this.callIconStyle} color="#22b25f" />
-                  <span style={{ color: "#484848" }}>{`+91${depItem.mobileNumber}`}</span>
+                  <span style={{ color: "#484848" }}>{`+252${depItem.mobileNumber}`}</span>
                 </a>
               ),
             };

@@ -147,7 +147,7 @@ class PGRService {
   }
 
   async getCityExternalWebpageLink(tenantId, whatsAppBusinessNumber) {
-    let url = config.egovServices.externalHost + config.egovServices.cityExternalWebpagePath + '?tenantId=' + tenantId + '&phone=+91' + whatsAppBusinessNumber;
+    let url = config.egovServices.externalHost + config.egovServices.cityExternalWebpagePath + '?tenantId=' + tenantId + '&phone=+252' + whatsAppBusinessNumber;
     let shorturl = await this.getShortenedURL(url);
     return shorturl;
   }
@@ -160,7 +160,7 @@ class PGRService {
   }
 
   async getLocalityExternalWebpageLink(tenantId, whatsAppBusinessNumber) {
-    let url = config.egovServices.externalHost + config.egovServices.localityExternalWebpagePath + '?tenantId=' + tenantId + '&phone=+91' + whatsAppBusinessNumber;
+    let url = config.egovServices.externalHost + config.egovServices.localityExternalWebpagePath + '?tenantId=' + tenantId + '&phone=+252' + whatsAppBusinessNumber;
     let shorturl = await this.getShortenedURL(url);
     return shorturl;
   }

@@ -20,7 +20,7 @@ const Logo = () => {
         <Image className="mseva-logo-style" source={`${logoMseva}`} style={imageStyle} />
       </div>
       <div className="mseva-text-container">
-        <span style={spanStyle}> Punjab</span>
+        <span style={spanStyle}> Maroodi Jeex</span>
       </div>
     </div>
   );

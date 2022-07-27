@@ -75,7 +75,7 @@ $ cd egovgithub
 $ git clone https://github.com/egovernments/egov-dcr-client.git
 ```
 2. Change directory back to `<CLONED_REPO_DIR>/egov`
-
+e
 3. Run the following commands, this will cleans, compiles, tests, migrates database and generates ear artifact along with jars and wars appropriately
 
  ```bash

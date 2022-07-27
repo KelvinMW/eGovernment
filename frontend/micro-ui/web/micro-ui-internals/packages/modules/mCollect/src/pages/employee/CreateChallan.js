@@ -445,7 +445,7 @@ const CreateChallen = ({ ChallanData }) => {
                 pattern: /^[6-9]\d{9}$/,
               },
               onChange: handleData,
-              componentInFront: <div className="employee-card-input employee-card-input--front">+91</div>,
+              componentInFront: <div className="employee-card-input employee-card-input--front">+252</div>,
               error: t("CORE_COMMON_MOBILE_ERROR"),
             },
           },

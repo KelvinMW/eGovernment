@@ -14,7 +14,7 @@ const SearchFields = ({register, control, reset, tenantId, t }) => {
             <label>{t("TL_TRADE_OWNER_S_NUMBER_LABEL")}</label>
             <TextInput name="mobileNumber" inputRef={register({})} 
             type="mobileNumber"
-            componentInFront={<div className="employee-card-input employee-card-input--front">+91</div>} 
+            componentInFront={<div className="employee-card-input employee-card-input--front">+252</div>} 
             maxlength={10}
         {...(validation = {
                 pattern: "[6-9]{1}[0-9]{9}",

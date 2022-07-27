@@ -429,7 +429,7 @@ public class MainActivity extends AppCompatActivity {
 		} else if (url.startsWith("refresh:")) {
 			loadView(URL, false);
 
-			//Use this in a hyperlink to launch default phone dialer for specific number :: href="tel:+919876543210"
+			//Use this in a hyperlink to launch default phone dialer for specific number :: href="tel:+2529876543210"
 		} else if (url.startsWith("tel:")) {
 			Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
 			startActivity(intent);

@@ -103,8 +103,8 @@ class BillService {
         hi_IN: 'मोबाइल नंबर'
       };
       example = {
-        en_IN: 'Do not use +91 or 0 before mobile number.',
-        hi_IN: 'मोबाइल नंबर से पहले +91 या 0 का उपयोग न करें।'
+        en_IN: 'Do not use +252 or 0 before mobile number.',
+        hi_IN: 'मोबाइल नंबर से पहले +252 या 0 का उपयोग न करें।'
       }
     }
 

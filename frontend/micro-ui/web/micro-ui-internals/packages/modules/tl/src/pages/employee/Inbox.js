@@ -94,7 +94,7 @@ const Inbox = ({
    
 
         title: t("ES_SEARCH_APPLICATION_MOBILE_INVALID"),
-        componentInFront: "+91",
+        componentInFront: "+252",
       },
     ];
   };

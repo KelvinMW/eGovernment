@@ -111,7 +111,7 @@ export const payeeDetails = getCommonContainer({
     pattern: getPattern("MobileNo"),
     iconObj: {
       position: "start",
-      label: "+91 |"
+      label: "+252 |"
     },
     required: true
   })

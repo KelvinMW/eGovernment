@@ -109,7 +109,7 @@ export const payeeDetails = getCommonContainer({
     errorMessage: "ERR_DEFAULT_INPUT_FIELD_MSG",
     iconObj: {
       position: "start",
-      label: "+91 |"
+      label: "+252 |"
     },
     required: true
   })
@@ -384,7 +384,7 @@ export const basicDetails = getCommonContainer({
     errorMessage: "ERR_DEFAULT_INPUT_FIELD_MSG",
     iconObj: {
       position: "start",
-      label: "+91 |"
+      label: "+252 |"
     },
     required: true
   })
@@ -436,7 +436,7 @@ export const bpaDetails = getCommonContainer({
     errorMessage: "ERR_DEFAULT_INPUT_FIELD_MSG",
     iconObj: {
       position: "start",
-      label: "+91 |"
+      label: "+252 |"
     },
     required: true
   })

@@ -419,7 +419,7 @@ export default class AlternateMobileDialog extends React.Component {
             </span>
           </span>
           {phase == 0 && <div>
-            <Label label={"ALT_OTPSENTTO"} labelStyle={{ color: 'rgba(0, 0, 0, 0.875)', fontSize: "16px" }} ></Label> <Label label={propertyNumbers && propertyNumbers.mobileNumber && `+91 ${propertyNumbers.mobileNumber}`} labelStyle={{ color: 'rgba(0, 0, 0, 0.875)', fontSize: "16px" }} ></Label>
+            <Label label={"ALT_OTPSENTTO"} labelStyle={{ color: 'rgba(0, 0, 0, 0.875)', fontSize: "16px" }} ></Label> <Label label={propertyNumbers && propertyNumbers.mobileNumber && `+252 ${propertyNumbers.mobileNumber}`} labelStyle={{ color: 'rgba(0, 0, 0, 0.875)', fontSize: "16px" }} ></Label>
             <div className="pt-update-verify-container">
               <span style={{
                 height: "100px",

@@ -459,7 +459,7 @@ export default class UpdateMobileDialog extends React.Component {
               )}
               {propertyNumbers && propertyNumbers.mobileNumber != "NA" && (
                 <Label
-                  label={propertyNumbers && propertyNumbers.mobileNumber && `+91 ${propertyNumbers.mobileNumber}`}
+                  label={propertyNumbers && propertyNumbers.mobileNumber && `+252 ${propertyNumbers.mobileNumber}`}
                   labelStyle={{ color: "rgba(0, 0, 0, 0.875)", fontSize: "16px" }}
                 ></Label>
               )}

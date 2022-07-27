@@ -151,7 +151,7 @@ export const searchPropertyDetails = {
           sm: 3
         },
         iconObj: {
-          label: "+91 |",
+          label: "+252 |",
           position: "start"
         },
         required: false,

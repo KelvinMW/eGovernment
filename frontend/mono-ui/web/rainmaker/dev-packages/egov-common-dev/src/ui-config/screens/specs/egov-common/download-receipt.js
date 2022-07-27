@@ -86,7 +86,7 @@ const screenConfig = {
         let redirectNumber = getQueryArg(window.location.href, "redirectNumber");
         if(channel){
             localStorage.setItem('receipt-channel',channel);
-            redirectNumber=!redirectNumber.includes('+91')&&redirectNumber.length==10?`+91${redirectNumber}`:redirectNumber
+            redirectNumber=!redirectNumber.includes('+252')&&redirectNumber.length==10?`+252${redirectNumber}`:redirectNumber
             localStorage.setItem('receipt-redirectNumber',redirectNumber);
         }else{
             localStorage.setItem('receipt-channel',"");

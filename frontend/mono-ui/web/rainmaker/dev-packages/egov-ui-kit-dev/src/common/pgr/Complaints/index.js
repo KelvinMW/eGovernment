@@ -40,11 +40,11 @@ const bottomInfoTemplate = (item, role) => {
                 {item.employeePhoneNumber && (
                   <a
                     className="pgr-call-icon"
-                    href={`tel:+91${item.employeePhoneNumber}`}
+                    href={`tel:+252${item.employeePhoneNumber}`}
                     style={{ textDecoration: "none", position: "relative", display: "flex", alignItems: "flex-end" }}
                   >
                     <Icon action="communication" name="call" style={callIconStyle} color={"#22b25f"} />
-                    <span style={{ marginLeft: "10px", color: "#767676", fontSize: 12, lineHeight: "12px" }}>{`+91 ${
+                    <span style={{ marginLeft: "10px", color: "#767676", fontSize: 12, lineHeight: "12px" }}>{`+252 ${
                       item.employeePhoneNumber
                     }`}</span>
                   </a>
@@ -70,11 +70,11 @@ const bottomInfoTemplate = (item, role) => {
                 {item.citizenPhoneNumber && (
                   <a
                     className="pgr-call-icon"
-                    href={`tel:+91${item.citizenPhoneNumber}`}
+                    href={`tel:+252${item.citizenPhoneNumber}`}
                     style={{ textDecoration: "none", position: "relative", display: "flex", alignItems: "flex-end" }}
                   >
                     <Icon action="communication" name="call" style={callIconStyle} color={"#22b25f"} />
-                    <span style={{ marginLeft: "10px", color: "#767676", fontSize: 12, lineHeight: "12px" }}>{`+91 ${item.citizenPhoneNumber}`}</span>
+                    <span style={{ marginLeft: "10px", color: "#767676", fontSize: 12, lineHeight: "12px" }}>{`+252 ${item.citizenPhoneNumber}`}</span>
                   </a>
                 )}
               </div>

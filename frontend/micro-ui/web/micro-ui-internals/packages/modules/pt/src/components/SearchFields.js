@@ -62,7 +62,7 @@ const SearchFields = ({register, control, reset, tenantId, t, formState, setShow
                     },
                 })}
                 type="number"
-                componentInFront={<div className="employee-card-input employee-card-input--front">+91</div>}
+                componentInFront={<div className="employee-card-input employee-card-input--front">+252</div>}
                 //maxlength={10}
                 />
                  <CardLabelError>{formState?.errors?.["mobileNumber"]?.message}</CardLabelError>

@@ -126,7 +126,7 @@ const SearchConnection = ({ config: propsConfig, formData }) => {
         cardStyle={{ margin: "auto" }}
         headingStyle={{ fontSize: "32px", marginBottom: "16px" }}
         onSelect={onConnectionSearch}
-        componentInFront={<div className="employee-card-input employee-card-input--front">+91</div>}
+        componentInFront={<div className="employee-card-input employee-card-input--front">+252</div>}
         isDisabled={false}
         forcedError={t(mobileNumberError)}
         //onSkip={onSkip}
@@ -178,7 +178,7 @@ const SearchConnection = ({ config: propsConfig, formData }) => {
         <CardLabel>{`${t("WS_CONSUMER_NUMBER_LABEL")}`}</CardLabel>
         <div className="field-container">
           <span className="employee-card-input employee-card-input--front" style={{ marginTop: "-1px" }}>
-            +91
+            +252
           </span>
           <TextInput
             type={"mobileNumber"}

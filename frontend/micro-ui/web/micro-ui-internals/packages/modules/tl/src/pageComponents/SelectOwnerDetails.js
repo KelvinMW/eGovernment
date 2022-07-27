@@ -276,7 +276,7 @@ const SelectOwnerDetails = ({ t, config, onSelect, userType, formData }) => {
                   <CardLabel>{`${t("TL_MOBILE_NUMBER_LABEL")}*`}</CardLabel>
                   <div className="field-container">
                     <span className="employee-card-input employee-card-input--front" style={{ marginTop: "-1px" }}>
-                      +91
+                      +252
                     </span>
                     <TextInput
                       type={"text"}
@@ -300,7 +300,7 @@ const SelectOwnerDetails = ({ t, config, onSelect, userType, formData }) => {
                   <CardLabel>{`${t("TL_TELEPHONE_NUMBER_LABEL")}`}</CardLabel>
                   <div className="field-container">
                     <span className="employee-card-input employee-card-input--front" style={{ marginTop: "-1px" }}>
-                      +91
+                      +252
                     </span>
                     <TextInput
                       type={"text"}
@@ -438,7 +438,7 @@ const SelectOwnerDetails = ({ t, config, onSelect, userType, formData }) => {
                 <CardLabel>{`${t("TL_MOBILE_NUMBER_LABEL")}*`}</CardLabel>
                 <div className="field-container">
                   <span className="employee-card-input employee-card-input--front" style={{ marginTop: "-1px" }}>
-                    +91
+                    +252
                   </span>
                   <TextInput
                     style={typeOfOwner === "MULTIOWNER" ? { background: "#FAFAFA" } : {}}

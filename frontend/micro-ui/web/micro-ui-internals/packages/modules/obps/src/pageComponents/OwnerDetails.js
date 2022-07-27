@@ -367,7 +367,7 @@ const OwnerDetails = ({ t, config, onSelect, userType, formData }) => {
                                     />}
                                     <div style={{ marginTop: "30px" }}>
                                         <div className="field-container">
-                                            <div style={{ position: "relative", zIndex: "100", left: "35px", marginTop: "-24.5px",marginLeft:Webview?"-25px":"-25px" }}>+91</div>
+                                            <div style={{ position: "relative", zIndex: "100", left: "35px", marginTop: "-24.5px",marginLeft:Webview?"-25px":"-25px" }}>+252</div>
                                             <TextInput
                                                 style={{ background: "#FAFAFA", padding: "0px 35px" }}
                                                 type={"text"}
