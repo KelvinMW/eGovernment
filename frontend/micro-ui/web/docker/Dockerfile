@@ -12,11 +12,12 @@ RUN ls -lah
 #RUN node web/envs.js
 RUN cd web/ \
     && node envs.js \
+    &&  ./install-deps.sh \
     && yarn install \
     && yarn build 
 
-#FROM nginx:mainline-alpine
-FROM ghcr.io/egovernments/nginx:mainline-alpine
+FROM nginx:mainline-alpine
+#FROM ghcr.io/egovernments/nginx:mainline-alpine
 ENV WORK_DIR=/var/web/digit-ui
 
 RUN mkdir -p ${WORK_DIR}
